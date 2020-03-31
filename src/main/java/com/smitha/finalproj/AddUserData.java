@@ -1,4 +1,4 @@
-package com.hinkmond.finalproj;
+package com.smitha.finalproj;
 
 
 public class AddUserData {
@@ -6,6 +6,7 @@ public class AddUserData {
     private String lastName;
     private String address;
     private String email;
+    private String phone;
 
     public String getFirstName() {
         return firstName;
@@ -30,5 +31,11 @@ public class AddUserData {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+    public String getPhone() {
+        return phone;
+    }
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 }

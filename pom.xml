@@ -8,8 +8,8 @@
         <version>2.1.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hinkmond</groupId>
-    <artifactId>spring-proj-template</artifactId>
+    <groupId>com.smitha.finalproj</groupId>
+    <artifactId>spring-barter-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <packaging>${artifact-packaging}</packaging>
@@ -95,6 +95,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.5.RELEASE</version>
             </plugin>
         </plugins>
     </build>

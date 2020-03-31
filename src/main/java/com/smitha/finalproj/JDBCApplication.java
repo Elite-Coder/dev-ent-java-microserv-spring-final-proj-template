@@ -1,4 +1,4 @@
-package com.hinkmond.finalproj;
+package com.smitha.finalproj;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 
 @SpringBootApplication
 public class JDBCApplication extends SpringBootServletInitializer {
-    private static final String KEYFILEPATH = "./keyFile.key";
+    private static final String KEYFILEPATH = "keyFile.key";
 
     /*
      * Solves problem with latest spring boot (with jdbc starter and Hikari)
